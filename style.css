@@ -56,3 +56,20 @@ body {
   color: #333;
   transition: all 0.3s ease;
 }
+
+.text-input .from-text {
+  border-right: 1px solid #eee;
+}
+
+.text-input textarea::placeholder {
+  color: #bfbfbf;
+}
+
+/* Custom Scrollbar */
+textarea::-webkit-scrollbar {
+  width: 6px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #d1d1d1;
+  border-radius: 10px;
+}

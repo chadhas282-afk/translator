@@ -43,3 +43,16 @@ body {
   display: flex;
   border-bottom: 1px solid #eee;
 }
+
+.text-input textarea {
+  height: 280px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 20px;
+  color: #333;
+  transition: all 0.3s ease;
+}

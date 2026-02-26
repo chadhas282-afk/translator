@@ -31,3 +31,15 @@ body {
   border-radius: 20px; 
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
+
+.wrapper {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden; 
+  background: #fdfdfd;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}

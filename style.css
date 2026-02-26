@@ -165,3 +165,27 @@ textarea::-webkit-scrollbar-thumb {
 .container button:active {
   transform: translateY(0);
 }
+
+@media (max-width: 660px) {
+  .container {
+    padding: 20px;
+  }
+  .wrapper .text-input {
+    flex-direction: column;
+  }
+  .text-input .from-text {
+    border-right: 0;
+    border-bottom: 1px solid #eee;
+  }
+  .text-input textarea {
+    height: 180px;
+  }
+  .controls {
+      flex-direction: column;
+      gap: 15px;
+  }
+  .controls .row {
+      width: 100%;
+      justify-content: center;
+  }
+}

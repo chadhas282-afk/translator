@@ -81,3 +81,28 @@ textarea::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: space-between;
 }
+
+.controls .row .icons {
+  display: flex;
+  gap: 15px; 
+}
+
+.controls .row .icons i {
+  width: 40px;
+  height: 40px;
+  color: #667eea; 
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f0f3ff;
+  transition: all 0.2s ease;
+}
+
+.controls .row .icons i:hover {
+  background: #667eea;
+  color: #fff;
+  transform: translateY(-2px);
+}

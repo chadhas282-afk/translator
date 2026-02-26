@@ -65,11 +65,19 @@ body {
   color: #bfbfbf;
 }
 
-/* Custom Scrollbar */
 textarea::-webkit-scrollbar {
   width: 6px;
 }
 textarea::-webkit-scrollbar-thumb {
   background: #d1d1d1;
   border-radius: 10px;
+}
+
+.controls {
+  list-style: none;
+  padding: 15px 25px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -106,3 +106,36 @@ textarea::-webkit-scrollbar-thumb {
   color: #fff;
   transform: translateY(-2px);
 }
+
+.controls .row select {
+  color: #444;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  font-size: 16px;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: border 0.3s;
+}
+
+.controls .row select:focus {
+  border-color: #667eea;
+}
+
+.controls .exchange {
+  color: #667eea;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #f0f3ff;
+  transition: all 0.3s ease;
+}
+
+.controls .exchange:hover {
+  background: #667eea;
+  color: #fff;
+  transform: rotate(180deg);
+}

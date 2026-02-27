@@ -5,4 +5,5 @@ const countries = {
     "ak-GH": "Akan",
     "sq-AL": "Albanian",
     "am-ET": "Amharic",
+    "ar-SA": "Arabic",
 }

@@ -6,4 +6,5 @@ const countries = {
     "sq-AL": "Albanian",
     "am-ET": "Amharic",
     "ar-SA": "Arabic",
+    "an-ES": "Aragonese",
 }

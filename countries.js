@@ -4,4 +4,5 @@ const countries = {
     "af-ZA": "Afrikaans",
     "ak-GH": "Akan",
     "sq-AL": "Albanian",
+    "am-ET": "Amharic",
 }
